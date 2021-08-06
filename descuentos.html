@@ -22,19 +22,29 @@
             <input id="precio" type="number" placeholder="Precio" class="input">
             <div>
             <label for="descuento">¿Cuanto es el descuento?</label>
-            <div>
-            <input id="descuento" type="number" placeholder="Descuento" class="input">
             </div>
+            <input id="descuento" type="number" placeholder="Descuento" class="input">
+            <div>
             <button type="button" onclick="calcularDescuento()" class="btn">
                 Calcular el descuento
             </button>
+            </div>
+                <label for="InputCoupon">Escribe el cupón de descuento para tu producto: </label>
+            <div>
+                <input id="InputCoupon" type="text" placeholder="Cupon"/>
+            </div>
+                <button type="button" onclick="onClickButtonPriceDiscount()">Calcular descuento con cupon</button>
             <div class="result__p">
-                <p id="container-result"></p>
+                <p id="container-result" class="resultado"></p>
             </div>
         </form>
         </div>
     </section>
-
+    <footer>
+        <ul>
+            <li><a href="/">Contact</a></li>
+        </ul>
+    </footer>
     <script src="descuentos.js"></script>
 </body>
 </html>
