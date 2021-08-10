@@ -61,4 +61,7 @@ button {
     .item {
         width: 70%;
     }
+    .container {
+        height: 500px;
+        }
 }
